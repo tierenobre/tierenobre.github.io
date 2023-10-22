@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2; /* cor fora da pagina principal */
+    background-color: #949494; /* cor fora da pagina principal */
     margin: 0;
     padding: 0;
 }
@@ -44,10 +44,10 @@ p {
 }
 .column {
     width: calc(33.33% - 10px); /* Três colunas com espaçamento entre elas */
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     padding: 1px;
     border-radius: 0px;
-    border:1px #9b9b9b solid;
+    border:1px #ffffff solid;
     margin: 1px;
   
     
