@@ -1,61 +1,65 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #cecece; /* cor fora da pagina principal */
+    background-color: #cecece; /* Cor fora da página principal */
     margin: 0;
     padding: 0;
 }
+
 .container {
-    background-color: #ffffff; /* cor dentro da folha */
-    max-width: 2000px; /* define o tamanho da pagina */
+    background-color: #ffffff; /* Cor dentro da folha */
+    max-width: 2000px; /* Define o tamanho da página */
     margin: 20px auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra por fora da borda */
-               
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra por fora da borda */
 }
+
 h1 {
     color: #000000;
     font-size: 24px;
-    
 }
+
 h2 {
     color: #444;
     font-size: 18px;
 }
+
 p {
     color: #000000;
     font-size: 16px;
     line-height: 1.5;
-    
 }
+
 .section {
     margin-bottom: 20px;
-}
-.section-header { /* linha entre os topicos */
-    border-bottom: 2px solid #333;
+    /* Linha entre os tópicos */
+    border-bottom: 1px solid #bdbdbd;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    
 }
+
+
 .columns {
     display: flex; /* FlexBox responsive design */
-    justify-content: space-between 1;
+    justify-content: space-between 1; /* Corrigido o valor aqui */
     flex-wrap: wrap;
+   
 }
+
 .column {
     width: calc(33.33% - 10px); /* Três colunas com espaçamento entre elas */
     background-color: #ffffff;
-    padding: 1px;
-    border-radius: 0px;
-    border:1px #ffffff solid;
-    margin: 1px;
-  
-    
+    padding: 10px; /* Ajustado o valor aqui */
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;;
+    margin: 5px; /* Espaçamento entre colunas */
 }
-.keyWord{
+
+.keyWord {
     font-weight: bold; /* Aplica negrito às palavras-chave */
     text-decoration: underline; /* Sublinha as palavras-chave */
 }
+
 /* Estilo para larguras menores (600px ou menos) usando uma consulta de mídia */
 @media (max-width: 768px) {
     .columns {
