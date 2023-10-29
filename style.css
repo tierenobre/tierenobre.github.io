@@ -49,10 +49,10 @@ p {
 .column {
     width: calc(33.33% - 10px); /* Três colunas com espaçamento entre elas */
     background-color: #ffffff;
-    padding: 10px; /* Ajustado o valor aqui */
-    border-radius: 5px;
+    padding: 5px; /* Ajustado o valor aqui */
+    border-radius: 2px;
     border: 1px solid #c7c7c7;;
-    margin: 5px; /* Espaçamento entre colunas */
+    margin: 2px; /* Espaçamento entre colunas */
 }
 
 .keyWord {
