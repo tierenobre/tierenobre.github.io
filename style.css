@@ -3,6 +3,7 @@ body {
     background-color: #cecece; /* Cor fora da página principal */
     margin: 0;
     padding: 0;
+    color:#383838
 }
 
 .container {
@@ -15,22 +16,24 @@ body {
 }
 
 h1 {
-    color: #000000;
+    color: #ff7b00;
     font-size: 24px;
+    font-weight: bold;
+    
 }
 
 h2 {
-    color: #444;
+    color: #ff7b00;
     font-size: 18px;
 }
 
 p {
-    color: #000000;
+    color: #303030;
     font-size: 16px;
     line-height: 1.5;
 }
 
-.section {
+.section{
     margin-bottom: 20px;
     /* Linha entre os tópicos */
     border-bottom: 1px solid #bdbdbd;
@@ -48,11 +51,11 @@ p {
 
 .column {
     width: calc(33.33% - 10px); /* Três colunas com espaçamento entre elas */
-    background-color: #ffffff;
-    padding: 5px; /* Ajustado o valor aqui */
-    border-radius: 2px;
+    background-color: #ffead6;
+    padding: 10px; /* Ajustado o valor aqui */
+    border-radius: 5px;
     border: 1px solid #c7c7c7;;
-    margin: 2px; /* Espaçamento entre colunas */
+    margin: 5px; /* Espaçamento entre colunas */
 }
 
 .keyWord {
